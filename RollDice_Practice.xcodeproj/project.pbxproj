@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F57987622CBA873008A6D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57987522CBA873008A6D3C /* AppDelegate.swift */; };
+		3F57987822CBA873008A6D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57987722CBA873008A6D3C /* ViewController.swift */; };
+		3F57987B22CBA873008A6D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57987922CBA873008A6D3C /* Main.storyboard */; };
+		3F57987D22CBA875008A6D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F57987C22CBA875008A6D3C /* Assets.xcassets */; };
+		3F57988022CBA875008A6D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F57987E22CBA875008A6D3C /* LaunchScreen.storyboard */; };
+		3F57988B22CBA875008A6D3C /* RollDice_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57988A22CBA875008A6D3C /* RollDice_PracticeTests.swift */; };
+		3F57989622CBA875008A6D3C /* RollDice_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57989522CBA875008A6D3C /* RollDice_PracticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F57988722CBA875008A6D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F57986A22CBA873008A6D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F57987122CBA873008A6D3C;
+			remoteInfo = RollDice_Practice;
+		};
+		3F57989222CBA875008A6D3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F57986A22CBA873008A6D3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F57987122CBA873008A6D3C;
+			remoteInfo = RollDice_Practice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F57987222CBA873008A6D3C /* RollDice_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollDice_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F57987522CBA873008A6D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F57987722CBA873008A6D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F57987A22CBA873008A6D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F57987C22CBA875008A6D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F57987F22CBA875008A6D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F57988122CBA875008A6D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F57988622CBA875008A6D3C /* RollDice_PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollDice_PracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F57988A22CBA875008A6D3C /* RollDice_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDice_PracticeTests.swift; sourceTree = "<group>"; };
+		3F57988C22CBA875008A6D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F57989122CBA875008A6D3C /* RollDice_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollDice_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F57989522CBA875008A6D3C /* RollDice_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDice_PracticeUITests.swift; sourceTree = "<group>"; };
+		3F57989722CBA875008A6D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F57986F22CBA873008A6D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57988322CBA875008A6D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57988E22CBA875008A6D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F57986922CBA873008A6D3C = {
+			isa = PBXGroup;
+			children = (
+				3F57987422CBA873008A6D3C /* RollDice_Practice */,
+				3F57988922CBA875008A6D3C /* RollDice_PracticeTests */,
+				3F57989422CBA875008A6D3C /* RollDice_PracticeUITests */,
+				3F57987322CBA873008A6D3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F57987322CBA873008A6D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F57987222CBA873008A6D3C /* RollDice_Practice.app */,
+				3F57988622CBA875008A6D3C /* RollDice_PracticeTests.xctest */,
+				3F57989122CBA875008A6D3C /* RollDice_PracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F57987422CBA873008A6D3C /* RollDice_Practice */ = {
+			isa = PBXGroup;
+			children = (
+				3F57987522CBA873008A6D3C /* AppDelegate.swift */,
+				3F57987722CBA873008A6D3C /* ViewController.swift */,
+				3F57987922CBA873008A6D3C /* Main.storyboard */,
+				3F57987C22CBA875008A6D3C /* Assets.xcassets */,
+				3F57987E22CBA875008A6D3C /* LaunchScreen.storyboard */,
+				3F57988122CBA875008A6D3C /* Info.plist */,
+			);
+			path = RollDice_Practice;
+			sourceTree = "<group>";
+		};
+		3F57988922CBA875008A6D3C /* RollDice_PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F57988A22CBA875008A6D3C /* RollDice_PracticeTests.swift */,
+				3F57988C22CBA875008A6D3C /* Info.plist */,
+			);
+			path = RollDice_PracticeTests;
+			sourceTree = "<group>";
+		};
+		3F57989422CBA875008A6D3C /* RollDice_PracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F57989522CBA875008A6D3C /* RollDice_PracticeUITests.swift */,
+				3F57989722CBA875008A6D3C /* Info.plist */,
+			);
+			path = RollDice_PracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F57987122CBA873008A6D3C /* RollDice_Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F57989A22CBA875008A6D3C /* Build configuration list for PBXNativeTarget "RollDice_Practice" */;
+			buildPhases = (
+				3F57986E22CBA873008A6D3C /* Sources */,
+				3F57986F22CBA873008A6D3C /* Frameworks */,
+				3F57987022CBA873008A6D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollDice_Practice;
+			productName = RollDice_Practice;
+			productReference = 3F57987222CBA873008A6D3C /* RollDice_Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F57988522CBA875008A6D3C /* RollDice_PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F57989D22CBA875008A6D3C /* Build configuration list for PBXNativeTarget "RollDice_PracticeTests" */;
+			buildPhases = (
+				3F57988222CBA875008A6D3C /* Sources */,
+				3F57988322CBA875008A6D3C /* Frameworks */,
+				3F57988422CBA875008A6D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F57988822CBA875008A6D3C /* PBXTargetDependency */,
+			);
+			name = RollDice_PracticeTests;
+			productName = RollDice_PracticeTests;
+			productReference = 3F57988622CBA875008A6D3C /* RollDice_PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F57989022CBA875008A6D3C /* RollDice_PracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5798A022CBA875008A6D3C /* Build configuration list for PBXNativeTarget "RollDice_PracticeUITests" */;
+			buildPhases = (
+				3F57988D22CBA875008A6D3C /* Sources */,
+				3F57988E22CBA875008A6D3C /* Frameworks */,
+				3F57988F22CBA875008A6D3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F57989322CBA875008A6D3C /* PBXTargetDependency */,
+			);
+			name = RollDice_PracticeUITests;
+			productName = RollDice_PracticeUITests;
+			productReference = 3F57989122CBA875008A6D3C /* RollDice_PracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F57986A22CBA873008A6D3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yen Ju Lai";
+				TargetAttributes = {
+					3F57987122CBA873008A6D3C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3F57988522CBA875008A6D3C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3F57987122CBA873008A6D3C;
+					};
+					3F57989022CBA875008A6D3C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3F57987122CBA873008A6D3C;
+					};
+				};
+			};
+			buildConfigurationList = 3F57986D22CBA873008A6D3C /* Build configuration list for PBXProject "RollDice_Practice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F57986922CBA873008A6D3C;
+			productRefGroup = 3F57987322CBA873008A6D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F57987122CBA873008A6D3C /* RollDice_Practice */,
+				3F57988522CBA875008A6D3C /* RollDice_PracticeTests */,
+				3F57989022CBA875008A6D3C /* RollDice_PracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F57987022CBA873008A6D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57988022CBA875008A6D3C /* LaunchScreen.storyboard in Resources */,
+				3F57987D22CBA875008A6D3C /* Assets.xcassets in Resources */,
+				3F57987B22CBA873008A6D3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57988422CBA875008A6D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57988F22CBA875008A6D3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F57986E22CBA873008A6D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57987822CBA873008A6D3C /* ViewController.swift in Sources */,
+				3F57987622CBA873008A6D3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57988222CBA875008A6D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57988B22CBA875008A6D3C /* RollDice_PracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F57988D22CBA875008A6D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57989622CBA875008A6D3C /* RollDice_PracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F57988822CBA875008A6D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F57987122CBA873008A6D3C /* RollDice_Practice */;
+			targetProxy = 3F57988722CBA875008A6D3C /* PBXContainerItemProxy */;
+		};
+		3F57989322CBA875008A6D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F57987122CBA873008A6D3C /* RollDice_Practice */;
+			targetProxy = 3F57989222CBA875008A6D3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F57987922CBA873008A6D3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F57987A22CBA873008A6D3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F57987E22CBA875008A6D3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F57987F22CBA875008A6D3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F57989822CBA875008A6D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F57989922CBA875008A6D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F57989B22CBA875008A6D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RollDice_Practice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.RollDice-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F57989C22CBA875008A6D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RollDice_Practice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.RollDice-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F57989E22CBA875008A6D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollDice_PracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.RollDice-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollDice_Practice.app/RollDice_Practice";
+			};
+			name = Debug;
+		};
+		3F57989F22CBA875008A6D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollDice_PracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.RollDice-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollDice_Practice.app/RollDice_Practice";
+			};
+			name = Release;
+		};
+		3F5798A122CBA875008A6D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollDice_PracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.RollDice-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollDice_Practice;
+			};
+			name = Debug;
+		};
+		3F5798A222CBA875008A6D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollDice_PracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "practice.RollDice-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollDice_Practice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F57986D22CBA873008A6D3C /* Build configuration list for PBXProject "RollDice_Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57989822CBA875008A6D3C /* Debug */,
+				3F57989922CBA875008A6D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F57989A22CBA875008A6D3C /* Build configuration list for PBXNativeTarget "RollDice_Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57989B22CBA875008A6D3C /* Debug */,
+				3F57989C22CBA875008A6D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F57989D22CBA875008A6D3C /* Build configuration list for PBXNativeTarget "RollDice_PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F57989E22CBA875008A6D3C /* Debug */,
+				3F57989F22CBA875008A6D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5798A022CBA875008A6D3C /* Build configuration list for PBXNativeTarget "RollDice_PracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5798A122CBA875008A6D3C /* Debug */,
+				3F5798A222CBA875008A6D3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F57986A22CBA873008A6D3C /* Project object */;
+}
